@@ -13,6 +13,7 @@ require_once('inc/connection.php') ?>
     <h1>home page</h1>
 
     <img src="img/project.png" alt=""><br>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est optio odit ea nobis sunt id amet delectus dignissimos veniam aspernatur consequatur ut nisi laboriosam, quo cupiditate, quibusdam alias harum et.</p>
     <img src="img/table.png" alt="">
 </body>
 </html>
