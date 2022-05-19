@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(88, 44, 44);
+}
+@media screen and (max-width:530px){
+    body{
+        background-color: rgb(95, 109, 80);
+    }
+}
+@media screen and (max-width:300px){
+    body{
+        background-color: darkblue;
+    }
+}
