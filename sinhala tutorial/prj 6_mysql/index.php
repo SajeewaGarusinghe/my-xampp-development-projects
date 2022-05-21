@@ -1,10 +1,26 @@
 <?php  require_once('inc/connection.php') ?>
-<!-- INSERT INTO TABLE_NAME(COL1,COL2,COL3,ETC) VALUES(VAL1 ,VAL2,VAL3 ,ETC)//INERT DATA TO QUERRY MY SQL COMMAND
- -->
 
+<?php
+// -- INSERT INTO TABLE_NAME(COL1,COL2,COL3,ETC) VALUES(VAL1 ,VAL2,VAL3 ,ETC)//INERT DATA TO QUERRY MY SQL COMMAND
+//  --
+$first_name="sajani";
+$last_name="ashed";
+$email="sajeeva@gmail.com";
+$password='mypassword1';
+$hashed_password=sha1($password);
+$is_deleted=0;
 
+$query="INSERT INTO users (first_name,last_name,email,password,is_deleted) VALUES ('{$first_name}','{$last_name}','{$email}','{$hashed_password}',{$is_deleted})";
 
+// data insert to table using following method
+$result=mysqli_query($connection,$query);
+if($result){
+echo 'one record added';
+}else{
+    echo 'update fail';
+}
 
+?>
 
 <!DOCTYPE html>
 <html lang="en">
