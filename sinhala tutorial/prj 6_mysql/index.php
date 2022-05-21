@@ -3,10 +3,10 @@
 <?php
 // -- INSERT INTO TABLE_NAME(COL1,COL2,COL3,ETC) VALUES(VAL1 ,VAL2,VAL3 ,ETC)//INERT DATA TO QUERRY MY SQL COMMAND
 //  --
-$first_name="samadhi";
+$first_name="sajani";
 $last_name="ashed";
-$email="samaddhi@gmail.com";
-$password='mypassword12';
+$email="sajeeva@gmail.com";
+$password='mypassword1';
 $hashed_password=sha1($password);
 $is_deleted=0;
 
@@ -43,3 +43,4 @@ echo 'one record added';
 mysqli_close($connection);//to close the database connection made earlier
 
 ?>
+
