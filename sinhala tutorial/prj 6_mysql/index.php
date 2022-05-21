@@ -1,5 +1,10 @@
-<?php
-require_once('inc/connection.php') ?>
+<?php  require_once('inc/connection.php') ?>
+<!-- INSERT INTO TABLE_NAME(COL1,COL2,COL3,ETC) VALUES(VAL1 ,VAL2,VAL3 ,ETC)//INERT DATA TO QUERRY MY SQL COMMAND
+ -->
+
+
+
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -10,7 +15,7 @@ require_once('inc/connection.php') ?>
     <title>Document</title>
 </head>
 <body>
-    <h1>home page</h1>
+    <h1>insert query</h1>
 
     <img src="img/project.png" alt=""><br>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est optio odit ea nobis sunt id amet delectus dignissimos veniam aspernatur consequatur ut nisi laboriosam, quo cupiditate, quibusdam alias harum et.</p>
@@ -19,6 +24,7 @@ require_once('inc/connection.php') ?>
 </html>
 
 <?php
-mysqli_close($connection);//to cloe the database connection made earlier
+mysqli_close($connection);//to close the database connection made earlier
 
 ?>
+
